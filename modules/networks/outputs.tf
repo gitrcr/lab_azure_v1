@@ -7,7 +7,7 @@ output "lab_vnet_id" {
 
 output "lab_subnet_ids" {
   description = "IDs de las subnets creadas"
-  value       = {
+  value = {
     for k, s in azurerm_subnet.lab_subnets : k => s.id
   }
 }

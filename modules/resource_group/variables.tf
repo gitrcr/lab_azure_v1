@@ -1,8 +1,3 @@
-# variables.tf rg
-variable "lab_subscription_id" {
-  description = "The subscription ID for the lab environment."
-  type        = string
-}
 
 variable "lab_rg_name" {
   description = "The name of the resource group for the lab environment."

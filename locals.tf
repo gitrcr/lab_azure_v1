@@ -11,6 +11,6 @@ locals {
   lab_rg_location = "eastus"
 
   # Virtual Network Variables
-  lab_vnet_name          = "vnet-lab-env"
+  lab_vnet_name          = "vnet-lab"
   lab_vnet_address_space = ["10.16.0.0/16"]
 }   
