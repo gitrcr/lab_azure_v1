@@ -36,5 +36,4 @@ script/*
 
 # Backup files
 *.bak
-/lab_azure.code-workspace
-lab_azure_v1.code-workspace
+*.code-workspace
