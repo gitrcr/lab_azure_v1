@@ -1,11 +1,17 @@
-variable "lab_susbcription_id" {
+# variables.tf rg
+variable "lab_subscription_id" {
   description = "The subscription ID for the lab environment."
   type        = string
 }
 
-variable "lab_rg_name" {}
-variable "lab_rg_location" {}
+variable "lab_rg_name" {
+  description = "The name of the resource group for the lab environment."
+  type        = string
+}
 
-
+variable "lab_rg_location" {
+  description = "The location of the resource group for the lab environment."
+  type        = string
+}
 
 

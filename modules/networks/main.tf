@@ -1,3 +1,4 @@
+# main.tf networks module
 # Create a Default Virtual Network
 resource "azurerm_virtual_network" "lab_vnet" {
   provider            = azurerm.lab_azure

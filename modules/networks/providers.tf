@@ -1,3 +1,4 @@
+# terraform/providers.tf networks module
 terraform {
   required_providers {
     azurerm = {
