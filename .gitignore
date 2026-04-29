@@ -6,6 +6,10 @@
 *.tfstate
 *.tfstate.*
 
+# Crash log files
+crash.log
+crash.*.log
+
 # Terraform .tfvars files, which are likely to contain sensitive data
 *.tfvars
 *.tfvars.json
